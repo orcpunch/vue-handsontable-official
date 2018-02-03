@@ -3,7 +3,7 @@
 </template>
 
 <script>
-  import Handsontable from 'handsontable';
+  import Handsontable from 'handsontable-pro';
   import SettingsMapper from './settingsMapper';
   import {
     hotInit,
@@ -24,5 +24,5 @@
 </script>
 
 <style>
-  @import "~handsontable/dist/handsontable.full.css";
+  @import "handsontable-pro/dist/handsontable.full.css";
 </style>
